@@ -4,8 +4,8 @@ Projeto da Facudade de Engenharia de Software - Unopar
 Que consistia em desenvolver uma página web para descobrir o seu signo de acordo com a sua data de 
 nascimento. A página inicial deveria conter um formulário para que o usuário inserir sua data de 
 nascimento e clicar em um botão que iria redirecioná-lo para uma outra página contendo as 
-principais informações do seu signo zodiacal. Para a estilização do conteúdo seria necessário utilizar 
-Bootstrap e folhas de estilo próprias. 
+principais informações do seu signo zodiacal. 
+Para a estilização do conteúdo utilizei Bootstrap e folhas de estilo próprias. 
 
 =>Procedimentos para a realização da atividade: 
 Para a realização desta atividade, utilizei o software VSCODE.  
@@ -26,7 +26,7 @@ o projeto.
         - index.php
         - show_zodiac_sign.php
         - - signos.xml 
-  * 3. Monte um arquivo XML, “signos.xml”. Criei a sua estrutura da seguinte forma:
+  * 3. Montei um arquivo XML, “signos.xml”. Criei a estrutura da seguinte forma:
         <?xml version="1.0"?> 
          <signos> 
            <signo> 
@@ -75,7 +75,7 @@ o projeto.
 dataInicio e dataFim do XML não contém o ano, portanto foi necessário criar 
 funções para transformar as datas “inicio” e “fim” em datas validas. Isso foi
 necessário para que seja possível verificar se a “data_nascimento” estava dentro do range de 
-maneira mais fácil.
+maneira mais fácil. Mais detalhes do projeto, estão nos arquivos em anexo.
 
   * 15. Os prints do resultado deste projeto estão em anexo nas Imagens 1 a 6 (PROJECT)
 
